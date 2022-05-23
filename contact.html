@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Astrología</title>
+</head>
+<body>
+	<div class="contenedor">
+        
+        <header class="header">
+            <h1>Astrología</h1>
+            <nav class= "nav">
+                <div class="topnav">
+                    <a href="index.html">Home</a>
+                    <a href="info.html">Planetas y elementos</a>
+                    <a href="tusigno.html">Calculadora de signos</a>
+                    <a class="active" href="contact.html">Contacto</a>
+                  </div>
+            </nav>
+        </header>
+
+        <main class="ultimo">
+            <form method="post" action="" class="contact">
+                <h3>Si querés una lectura de carta completa, por favor dejanos tu contacto.</h3>
+                <br><br>
+                <label for="nombre">Nombre</label> <br>
+                <input type="text" id="nombre" size="30" placeholder="Tu nombre.." required>
+            <br><br>
+                <label for="apellido">Apellido</label> <br>
+                <input type="text" id="apellido" size="30" placeholder="Tu apellido.." required>
+            <br> <br>
+                <label for="pais">Pais</label> <br>
+                <input type="text" id="pais" size="30" placeholder="Tu pais.." required>
+            <br><br>
+                <label for="email">Email de contacto</label> <br>
+                <input type="email" id="email" size="30" placeholder="Tu email.." required>
+                <span id="error" style="color:red;"></span>
+            <br><br>
+                <label for="comentarios">Comentarios</label><br>
+                <textarea type="text" id="comentarios" maxlength="300" rows="10" cols="50"> Escribe algo.. </textarea> 
+            <br><br> 
+                <button type="submit"> Enviar </button>
+            </form>
+            <br><hr><br>
+            <div class="iframe">  
+                <h4>Además te dejo unos datos interesantes por Lu Gaitán:</h4>
+                <iframe width="400" height="300" src="https://www.youtube.com/embed/-Y9_q_vLo1Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </main>
+
+
+        <footer class="footer">
+            <h8>Copyright © 2022 Astrología </h8>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
