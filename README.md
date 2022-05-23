@@ -8,6 +8,6 @@ Página con funcionalidad = tusigno.html
 
 Formulario de contacto = contact.html
 
-Estilos = estilos.css
+Estilos = css/estilos.css
 
-Java = script.js
+Java = js/script.js
