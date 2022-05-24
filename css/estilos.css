@@ -1,5 +1,4 @@
 
-
 /* estilos en TODOS */
 
 * {
@@ -263,7 +262,7 @@ input:valid {
 	display: flex;
 	align-items:flex-start;
 	min-height: 400px;
-	max-height: 700px ;
+	max-height: 800px ;
 	min-width: 200px;
 	grid-area: sidebar;	
 }
@@ -295,14 +294,18 @@ input:valid {
 /* Widget (solo en página INFO) */
 
 .contenedor .widget {
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	background: #291e5c;
 	color: #ffffff;
+	border-radius: 20%;
+	border-color:rgb(167, 141, 47);
+	border-style:groove;
+	padding: 2%;
+	overflow-y: scroll;
 	height: 100px;
-	text-align: right;
-	display:flex;
+	display:flex ;
 	align-items: center;
-	justify-content:flex-end;
-	overflow:scroll;
+	justify-content:center;
 	grid-area: widget;
 	transition-property: width;
 	transition-duration: 2s;

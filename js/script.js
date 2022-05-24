@@ -3,18 +3,18 @@ const tusigno = document.querySelector(".tusigno");
 const day = document.querySelector('#day');
 const month = document.querySelector('#month');
 
-const Aries = "Tu signo solar es Aries! Fuego cardinal; regido por Marte. Fuerza de voluntad, impulsiv@, iniciativa, coraje, energía, actividad. A menudo se lanza de cabeza sobre las cosas."
-const Tauro="Tu signo solar es Tauro! Tierra fijo; regido por Venus. Sensual, busca el placer, estable, se esfuerza por lograr seguridad. Ve rojo cuando se le provoca por un tiempo prolongado."
-const Geminis="Tu signo solar es Geminis! Aire mudable; regido por Mercurio. Es mental, ingenios@, comunicativ@, móvil, obtiene placer del aprendizaje. Rara vez hace contacto."
-const Cancer="Tu signo solar es Cancer! Agua cardinal; regido por la Luna. Es emocional, testarud@, busca la seguridad y la proximidad. Una persona muy de familia."
-const Leo="Tu signo solar es Leo! Fuego fijo; regido por el Sol. Glamour, generosidad, organizador/a, el centro de atención. Le gusta jugar el rol de león."
-const Virgo="Tu signo solar es Virgo! Tierra mudable; regido por Mercurio. Precis@, diferencia, hace lo necesario, utilitari@. Un punto de vista crítico."
-const Libra="Tu signo solar es Libra! Aire cardinal; regido por Venus. Sentido de la belleza y la proporción, tiene tacto, busca el equilibrio y la armonía. A veces revolotea entre las balanzas."
-const Escorpio="Tu signo solar es Escorpio! Agua fija; regido por Plutón. Corrosiv@, apasionad@, penetrante, situaciones extremas. Pelea frecuentemente con los espíritus que convoca."
-const Sagitario="Tu signo solar es Sagitario! Fuego mudable; regido por Júpiter. Espíritu libre, despreocupado, amor por el movimiento, alegre. Instinto de nómada, a menudo parece estar en otro lugar."
-const Capricornio="Tu signo solar es Capricornio! Tierra cardinal; regido por Saturno. Resistente, tiene sentido de propósito, orgullos@, ambicios@. Puede quedarse atascado en las alturas peligrosas."
-const Acuario="Tu signo solar es Acuario! Aire fijo; regido por Urano. Comunicativ@, humanitari@, progresista, fraternal. Espíritu universal con una asombrosa obstinación ocasional."
-const Piscis="Tu signo solar es Piscis! Agua mudable; regido por Neptuno. Sensible, compasiv@, servicial, sociable. Muy adaptable, difícil de agarrar."
+const Aries = "Tu signo solar es Aries! Fuego cardinal; regido por Marte. Mucha fuerza de voluntad, impulsividad, iniciativa, coraje, energía, actividad. A menudo se lanza de cabeza sobre las cosas."
+const Tauro="Tu signo solar es Tauro! Tierra fijo; regido por Venus. Es sensual, busca el placer, la estabilidad y se esfuerza por lograr seguridad. Ve rojo cuando se le provoca por un tiempo prolongado."
+const Geminis="Tu signo solar es Geminis! Aire mutable; regido por Mercurio. Es mental, ingeniosx, comunicativx, no se queda quietx, obtiene placer del aprendizaje. Rara vez hace contacto."
+const Cancer="Tu signo solar es Cancer! Agua cardinal; regido por la Luna. Es emocional, testarudx, busca la seguridad y la proximidad. Una persona muy de familia."
+const Leo="Tu signo solar es Leo! Fuego fijo; regido por el Sol. Posee glamour, generosidad, le gusta ser quien organiza y el centro de atención."
+const Virgo="Tu signo solar es Virgo! Tierra mutable; regido por Mercurio. Es precisx, sabe diferenciar, hace lo necesario y lo que tiene utilidad. Un punto de vista crítico."
+const Libra="Tu signo solar es Libra! Aire cardinal; regido por Venus. Sentido de la belleza y la proporción, tiene tacto, busca el equilibrio y la armonía."
+const Escorpio="Tu signo solar es Escorpio! Agua fija; regido por Plutón. Corrosivx, apasionadx, penetrante, a veces se encuentra inmerso en situaciones extremas. Pelea frecuentemente con los espíritus que convoca."
+const Sagitario="Tu signo solar es Sagitario! Fuego mutable; regido por Júpiter. Espíritu libre y despreocupado, posee amor por el movimiento y es alegre. Tiene un instinto de nómada, a menudo parece estar en otro lugar."
+const Capricornio="Tu signo solar es Capricornio! Tierra cardinal; regido por Saturno. Resistente, tiene sentido de propósito, bastante orgullosx y ambiciosx."
+const Acuario="Tu signo solar es Acuario! Aire fijo; regido por Urano. Comunicativx, humanitarix, progresista. Espíritu universal con una asombrosa obstinación ocasional."
+const Piscis="Tu signo solar es Piscis! Agua mutable; regido por Neptuno. Sensible, compasivx, servicial, sociable. Muy adaptable y difícil de encasillar"
 
 
 tusigno.addEventListener('submit', (event) => {
